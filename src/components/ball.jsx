@@ -5,7 +5,6 @@ const Ball = ({ width, height, color }) => (
     data-testid="ball"
     style={{
       background: color || "white",
-      position: "absolute",
       borderRadius: "50%",
       width: width,
       height: height,
