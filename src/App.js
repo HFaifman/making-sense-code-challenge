@@ -54,7 +54,7 @@ const App = () => {
         columns={columns}
         initialPosition={0}
       />
-      <MovesCaption win={win} style={{ alignSelf: "flex-end" }} moves={moves} />
+      <MovesCaption win={win} moves={moves} />
     </div>
   );
 };
