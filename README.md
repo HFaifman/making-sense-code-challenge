@@ -11,7 +11,7 @@ window.addEventListener = jest.fn((event, cb) => {
 Then, we would have to mock the user interaction with this listener:
 
 ```javascript
-const map.keyPress("ArrowLeft")
+const map.keyPress({key: "ArrowLeft"})
 ```
 
 And then we just need to assert whether the ball is in the proper location in the array or not.
